@@ -6,7 +6,7 @@ const IndexPage = () => {
     <main>
       <title>Home Page</title>
       <NavBar></NavBar>
-      <div className="bg-pink-300">testing tailwind</div>
+      <div className="text-pink-300">testing tailwind</div>
     </main>
   )
 }

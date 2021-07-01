@@ -4,9 +4,9 @@ import NavBar from '../components/navbar'
 const IndexPage = () => {
   return (
     <main>
-      <title>Home Page</title>
+      <title>Giving</title>
       <NavBar></NavBar>
-      <div className="bg-pink-300">testing tailwind</div>
+      <div className="text-pink-500">Giving</div>
     </main>
   )
 }

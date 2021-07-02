@@ -1,14 +1,12 @@
 import * as React from "react"
-import NavBar from '../components/navbar'
+import Layout from '../components/layout'
 
-const IndexPage = () => {
+const Give = () => {
   return (
-    <main>
-      <title>Giving</title>
-      <NavBar></NavBar>
+    <Layout pageTitle="Give">
       <div className="text-pink-500">Giving</div>
-    </main>
+    </Layout>
   )
 }
 
-export default IndexPage
+export default Give

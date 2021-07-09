@@ -1,17 +1,19 @@
 import * as React from 'react';
-import NavBar from './navbar';
+import Hero from './hero';
+import Footer from './footer';
 
 const Layout = (props) =>  {
 
-
     return (
         <div>
-            <NavBar />
             <title>{props.pageTitle}</title>
-            <main>
-                <h1>{props.pageTitle}</h1>
-                {props.children}
+            <Hero heroImage={props.heroImage}></Hero>
+            <main style={{minHeight: '65vh'}} className="flex justify-center">
+                <div className="max-w-4xl w-full px-8 py-4">
+                    {props.children}
+                </div>
             </main>
+            <Footer />
         </div>
     )
 }

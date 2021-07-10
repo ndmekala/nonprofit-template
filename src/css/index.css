@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    @font-face {
+        font-family: Fell;
+        font-style: normal;
+        src: url(../fonts/IMFeENrm29C.otf);
+    }
+
+    @font-face {
+        font-family: Fell;
+        font-style: italic;
+        src: url(../fonts/IMFeENit29C.otf)
+    }
+}

@@ -10,7 +10,7 @@ const Section = (props) =>  {
     return (
         <div style={gridLayout}>
             <div className="my-4">
-                <h1 className="uppercase text-xl font-bold tracking-wider">
+                <h1 className="text-2xl font-bold font-serif">
                     {props.title}
                 </h1>
             </div>

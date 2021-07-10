@@ -13,7 +13,8 @@ const Hero = (props) => {
   return (
     <div style={heroStyles}>
         <NavBar />
-        <p className="p-8 text-white w-100 h-96 text-7xl">Welcome to Zion</p>
+        <p className="font-serif pl-24 pt-24 text-white w-100 text-3xl uppercase">Welcome to</p>
+        <p className="font-serif pl-24 text-white w-100 h-96 text-9xl">Zion</p>
     </div>
   );
 };

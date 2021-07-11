@@ -1,4 +1,3 @@
-
 ---
 slug: "/blog/sample-markdown"
 date: "2021-07-10"

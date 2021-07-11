@@ -1,6 +1,6 @@
 import * as React from "react"
 import Layout from '../components/layout'
-import Zion from '../images/hero/zion.webp';
+import hero from '../images/hero/stock-2.jpg';
 import Section from "../components/section"
 
 const Ministries = () => {
@@ -44,7 +44,7 @@ const Ministries = () => {
         }
     ]
   return (
-    <Layout heroImage={Zion} pageTitle="Ministries">
+    <Layout heroImage={hero} pageTitle="Ministries">
         {ministryInfo.map((row) => (
             <Section title={row.title}>
                 <p>{row.description}</p>

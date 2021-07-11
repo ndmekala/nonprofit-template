@@ -8,7 +8,7 @@ const Layout = (props) =>  {
         <div>
             <title>{props.pageTitle}</title>
             <Hero heroImage={props.heroImage}></Hero>
-            <main style={{minHeight: '65vh'}} className="flex justify-center">
+            <main style={{minHeight: '65vh'}} className="flex bg-purple-100 justify-center">
                 <div className="max-w-4xl w-full px-8 py-4">
                     {props.children}
                 </div>

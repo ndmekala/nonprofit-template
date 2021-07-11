@@ -1,10 +1,10 @@
 import * as React from "react"
 import Layout from '../components/layout'
-import Zion2 from '../images/hero/zion2.webp';
+import hero from '../images/hero/stock-5.jpg';
 
 const Contact = () => {
   return (
-    <Layout heroImage={Zion2} pageTitle="Contact">
+    <Layout heroImage={hero} pageTitle="Contact">
         <div className="text-pink-600">Contact</div>
     </Layout>
   )

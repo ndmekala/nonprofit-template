@@ -1,7 +1,7 @@
 import * as React from "react";
 import { Link, graphql, useStaticQuery } from "gatsby";
 import Layout from "../components/layout";
-import Zion2 from "../images/hero/zion2.webp";
+import hero from "../images/hero/stock-6.jpg";
 
 const Blog = () => {
 
@@ -25,7 +25,7 @@ const Blog = () => {
   console.log(articles)
 
   return (
-    <Layout heroImage={Zion2} pageTitle="Blog">
+    <Layout heroImage={hero} pageTitle="Blog">
       <div className="text-pink-600">Blog!</div>
       <ul className="list-disc">
       {articles.allMarkdownRemark.edges.map((edge) => (

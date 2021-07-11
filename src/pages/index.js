@@ -1,12 +1,12 @@
 import * as React from "react";
 import Layout from "../components/layout";
-import Zion from "../images/hero/zion.webp";
+import hero from "../images/hero/stock-2.jpg";
 import Section from "../components/section";
 
 const IndexPage = () => {
 
   return (
-    <Layout heroImage={Zion} pageTitle="Home">
+    <Layout heroImage={hero} pageTitle="Home">
       <Section title="Our Vision">
           <p>Zion Baptist Church is a Spirit led, transformed body of believers
           whose sole vision is to Glorify GOD in all we do... centered in

@@ -48,7 +48,7 @@ const NavBar = () => {
     setMenuOpen(stateCopy);
   };
   return (
-    <nav className="w-full border bg-blue-100 bg-opacity-50 border-blue-500">
+    <nav className="w-full border bg-purple-100 bg-opacity-50 border-purple-500">
       <ul className={`flex-wrap sm:flex justify-end py-8 mr-8`}>
         <li className="h-6 block relative mt-4 ml-4 sm:hidden sm:mt-0" onClick={toggleMenuOpen}>
             <div className="w-8 h-8 absolute top-0 right-0">
@@ -64,7 +64,7 @@ const NavBar = () => {
               className={`py-2 ${
                 link.button
                   ? "px-4 text-white bg-purple-700 hover:bg-purple-200 hover:text-purple-500"
-                  : "text-purple-700 hover:text-purple-900 px-1"
+                  : "text-white hover:text-purple-400 px-1"
               }`}
               to={link.route}
             >

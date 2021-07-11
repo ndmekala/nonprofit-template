@@ -4,7 +4,7 @@ import NavBar from "./navbar";
 
 const Hero = (props) => {
     const heroStyles = {
-        backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0 , 0, 0, 0.4)), url('${props.heroImage}')`,
+        backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0 , 0, 0, 0.2)), url('${props.heroImage}')`,
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat',
         backgroundSize: 'cover',

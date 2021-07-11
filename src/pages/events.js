@@ -1,10 +1,10 @@
 import * as React from "react"
 import Layout from '../components/layout'
-import Zion2 from '../images/hero/zion2.webp';
+import hero from '../images/hero/stock-4.jpg';
 
 const Events = () => {
   return (
-    <Layout heroImage={Zion2} pageTitle="Events">
+    <Layout heroImage={hero} pageTitle="Events">
         <div className="text-pink-600">Events</div>
     </Layout>
   )

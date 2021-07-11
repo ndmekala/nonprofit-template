@@ -1,7 +1,7 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
-import Zion2 from '../images/hero/zion2.webp';
+import hero from '../images/hero/stock-2.jpg';
 
 export default function Template({
   data, // this prop will be injected by the GraphQL query below.
@@ -9,7 +9,7 @@ export default function Template({
   const { markdownRemark } = data // data.markdownRemark holds your post data
   const { frontmatter, html } = markdownRemark
   return (
-    <Layout heroImage={Zion2} pageTitle="Blog">
+    <Layout heroImage={hero} pageTitle="Blog">
       
         <h1>{frontmatter.title}</h1>
         <h2>{frontmatter.date}</h2>

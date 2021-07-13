@@ -6,7 +6,7 @@ const initialOptions = {
     "client-id": "test",
     currency: 'USD',
     intent: "capture",
-    // clientId: '',
+    // datatoken: '',
 }
 
 export const wrapRootElement  = ({ element }) => {

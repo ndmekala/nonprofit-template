@@ -5,7 +5,8 @@ import { usePayPalScriptReducer, PayPalButtons } from "@paypal/react-paypal-js";
 
 const Give = () => {
   // createOrder needs to pull from a form
-  const [{ isPending }] = usePayPalScriptReducer();
+  // const [{ isPending }] = usePayPalScriptReducer();
+  const isPending = false;
 
   const h1Tailwind = "text-4xl text-pink-500 mb-4 text-center"
 

@@ -3,7 +3,8 @@ module.exports = {
     theme: {
       extend: {
         fontFamily: {
-          'serif': ['Fell', 'Georgia', 'Times New Roman', 'serif']
+          'serif': ['Cormorant', 'Georgia', 'Times New Roman', 'serif'],
+          'sans': ['Poppins', 'Arial', 'Helvetica', 'sans']
         }
       }
     },

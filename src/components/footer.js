@@ -3,7 +3,7 @@ import * as React from "react";
 const Footer = (props) => {
 
   return (
-    <footer className="bg-purple-400 w-full py-4 flex justify-center">
+    <footer className="bg-purple-400 font-serif w-full py-4 flex justify-center">
         <div className="w-full max-w-4xl px-8 flex items-center justify-between">
             <div className="text-white">
                 <p>Zion Baptist Church</p>

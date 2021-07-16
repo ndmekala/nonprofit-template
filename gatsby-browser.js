@@ -3,10 +3,10 @@ import React from 'react'
 import {PayPalScriptProvider} from '@paypal/react-paypal-js'
 
 const initialOptions = {
-    "client-id": "test",
+    "client-id": process.env.CLIENT_ID,
     currency: 'USD',
     intent: "capture",
-    // datatoken: '',
+    datatoken: '',
 }
 
 export const wrapRootElement  = ({ element }) => {

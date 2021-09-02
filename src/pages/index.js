@@ -14,7 +14,7 @@ const IndexPage = () => {
           creating a Christ -centered community" ACTS 2;42-47 ("The Beloved
           Community")</p>
       </Section>
-      <Section title="Our Mission">
+      <Section title="Our Mission!!">
           <p>Zion Baptist Church exists to be a center of Christ-like love and
             healing, to introduce people to Jesus Christ, helping them mature in
             faith and grow in service, equipping them to go to the world to

@@ -45,11 +45,14 @@ const Ministries = () => {
     ]
   return (
     <Layout heroImage={hero} pageTitle="Ministries">
-        {ministryInfo.map((row) => (
+        <h1 className="text-7xl">MINISTRIES</h1>
+        {ministryInfo.map((row) => (       
             <Section title={row.title}>
                 <p>{row.description}</p>
             </Section>
         ))}
+        <h1 className="text-7xl">EVENTS</h1>
+        <h1 className="text-7xl">CALENDAR</h1>
     </Layout>
   )
 }

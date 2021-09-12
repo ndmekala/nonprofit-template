@@ -9,17 +9,17 @@ const links = [
     button: false,
   },
   {
-    text: "Blog",
-    route: "/blog",
+    text: "Sermons",
+    route: "/sermons",
     button: false,
   },
   {
-    text: "About Us",
+    text: "About",
     route: "/about",
     button: false,
   },
   {
-    text: "Our Ministries",
+    text: "Ministries",
     route: "/ministries",
     button: false,
   },
@@ -29,8 +29,8 @@ const links = [
     button: false,
   },
   {
-    text: "Events",
-    route: "/events",
+    text: "Blog",
+    route: "/blog",
     button: false,
   },
   {
@@ -48,23 +48,23 @@ const NavBar = () => {
     setMenuOpen(stateCopy);
   };
   return (
-    <nav className="w-full border bg-purple-100 bg-opacity-50 border-purple-500">
-      <ul className={`flex-wrap sm:flex justify-end py-8 mr-8`}>
-        <li className="h-6 block relative mt-4 ml-4 sm:hidden sm:mt-0" onClick={toggleMenuOpen}>
+    <nav className="w-full bg-sienna">
+      <ul className={`flex-wrap sm:flex justify-end py-2 mr-8`}>
+        <li className="h-6 block relative ml-4 my-2 sm:hidden sm:mt-0" onClick={toggleMenuOpen}>
             <div className="w-8 h-8 absolute top-0 right-0">
-                <span className="block bg-purple-500 rounded-sm mt-0.5 w-7 h-1"></span>
-                <span className="block bg-purple-500 rounded-sm mt-1 w-7 h-1"></span>
-                <span className="block bg-purple-500 rounded-sm mt-1 w-7 h-1"></span>
+                <span className="block bg-bone rounded-sm mt-0.5 w-7 h-1"></span>
+                <span className="block bg-bone rounded-sm mt-1 w-7 h-1"></span>
+                <span className="block bg-bone rounded-sm mt-1 w-7 h-1"></span>
             </div>
         </li>
         {links.map((link) => (
-          <li className={`text-center w-100 ml-4 mt-4 ${menuOpen ? "block" : "hidden"} sm:block sm:w-auto sm:text-left`}>
+          <li className={`text-center w-100 my-3 ml-4 ${menuOpen ? "block" : "hidden"} sm:block sm:w-auto sm:text-left`}>
             <Link
               key={link.text}
               className={`py-2 ${
                 link.button
-                  ? "px-4 text-white bg-purple-700 hover:bg-purple-200 hover:text-purple-500"
-                  : "text-white hover:text-purple-400 px-1"
+                  ? "px-4 text-bone bg-cadet hover:bg-bone hover:text-cadet"
+                  : "text-bone hover:text-cadet px-1"
               }`}
               to={link.route}
             >

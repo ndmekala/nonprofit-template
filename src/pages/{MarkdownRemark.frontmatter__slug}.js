@@ -17,7 +17,7 @@ export default function Template({
           className="blog-post-content"
           dangerouslySetInnerHTML={{ __html: html }}
         />
-        <Link className="hover:text-pink-500" to="/blog/">Blog</Link>
+        <Link className="hover:text-cadet" to="/blog/">Blog</Link>
     </Layout>
   )
 }

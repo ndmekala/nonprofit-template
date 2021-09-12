@@ -8,11 +8,11 @@ const Give = () => {
   // const [{ isPending }] = usePayPalScriptReducer();
   // const isPending = false;
 
-  const h1Tailwind = "text-4xl text-pink-500 mb-4 text-center"
+  const twh1 = "text-4xl text-pink-500 mb-4 text-center"
 
   return (
     <Layout heroImage={hero} pageTitle="Give">
-      <h1 className={h1Tailwind}>Option 1</h1>
+      <h1 className={twh1}>Option 1</h1>
       <p>😝</p>
       {/* isPending ? (
         <div className="text-7xl text-pink-500">LOADING</div>
@@ -25,10 +25,11 @@ const Give = () => {
           }}
         />
         ) */}
-      <h1 className={h1Tailwind}>Option 2</h1>
+      <h1 className={twh1}>Option 2</h1>
       <a href="https://cash.app/$ZionBaptistChurch"><button className="w-full border border-purple-500 px-2 py-1">Cash App</button></a>
-      <h1 className={h1Tailwind}>Option 3</h1>
+      <h1 className={twh1}>Option 3</h1>
       <p>Mail a check…</p>
+      <h1 className={twh1}>CAPITAL CAMPAIGN + THERMOMETER</h1>
     </Layout>
   );
 };

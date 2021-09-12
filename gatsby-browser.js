@@ -11,8 +11,10 @@ const initialOptions = {
 
 export const wrapRootElement  = ({ element }) => {
     return (
-        <PayPalScriptProvider options={initialOptions}>
+        <div>
+        {/* <PayPalScriptProvider options={initialOptions}> */}
         {element}
-        </PayPalScriptProvider>
+        {/* </PayPalScriptProvider> */}
+        </div>
     )
 }

@@ -6,9 +6,10 @@ const Footer = (props) => {
     <footer className="bg-sienna font-serif w-full py-4 flex justify-center">
         <div className="w-full max-w-4xl px-8 flex items-center justify-between">
             <div className="text-bone">
-                <p>Zion Baptist Church</p>
-                <p>621 Elwood Ave N Minneapolis, MN 55411</p>
+                <p>621 Elwood Ave N</p>
+                <p>Minneapolis, MN 55411</p>
                 <p>612-377-5436</p>
+                <p><a href="mailto:zionbaptist621@msn.com" className="hover:text-cadet">zionbaptist621@msn.com</a></p>
             </div>
             <div>
                 <a className="text-bone hover:text-cadet" href="https://facebook.com">

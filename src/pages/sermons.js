@@ -14,6 +14,8 @@ const Sermons = () => {
             <p className={twp}>You can view our sermons on <a href="https://www.facebook.com/621elwood/" className={twa}>Facebook Live</a>. <em>Services are Sundays at 11 am.</em></p>
             <h1 className={twh1}>Listen</h1>
             <p className={twp}>You can also listen to our sermons on 89.9 FM <a href="" className={twa}>KMOJ</a>. <em>Sermons air Sundays at 9 am.</em></p>
+            <h1 className={twh1}>CD Purchases</h1>
+            <p className={twp}><em>Inquiries about CD purchases can be made through our <a href="/contact/" className={twa}>contact form</a>.</em></p>
         </Layout>
     )
 }

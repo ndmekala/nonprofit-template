@@ -2,6 +2,7 @@ import * as React from "react";
 import Layout from "../components/layout";
 import hero from "../images/hero/stock-3.jpg";
 import Section from "../components/section";
+import Blurb from "../components/blurb"
 
 const IndexPage = () => {
 
@@ -17,7 +18,7 @@ const IndexPage = () => {
       <p className={twp}>Zion Baptist Church exists to be a center of Christ-like love and healing, to introduce people to Jesus Christ, helping them mature in faith and grow in service, equipping them to go to the world to spread the good news, making disciples of Jesus.</p>
       <h1 className={twh1}>Services</h1>
       <p className={twp}>Our Sunday service time is 11 am, with Sunday school beginning at 10 am.</p>
-
+      <Blurb title="yes">Hi</Blurb>
       {/* <Section title="Our Vision">
           <p>Zion Baptist Church is a Spirit led, transformed body of believers
           whose sole vision is to Glorify GOD in all we do... centered in

@@ -6,7 +6,7 @@ const Blurb = (props) =>  {
     return (
         <div>
             <div className="my-4">
-                <h1 className="font-serif font-bold text-4xl text-sienna">
+                <h1 className="font-serif font-bold text-5xl text-sienna">
                     {props.title}
                 </h1>
             </div>

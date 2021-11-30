@@ -4,6 +4,8 @@ import Footer from './footer';
 
 const Layout = (props) =>  {
 
+    // this should conditionally render a wider or narrower max width
+
     return (
         <div>
             <title>{props.pageTitle}</title>

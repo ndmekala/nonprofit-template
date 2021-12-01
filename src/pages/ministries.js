@@ -57,7 +57,7 @@ const Ministries = () => {
   return (
     <Layout heroImage={hero} pageTitle="Ministries">
         <h1 className={twh1}>Ministries</h1>
-        {ministryInfo.map((row, index) => (
+        {ministryInfo.map((row) => (
             <Ministry imgSrc={row.imgSrc} alt={row.title + " image"} title={row.title}>
             {row.description}
             </Ministry>

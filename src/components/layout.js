@@ -4,14 +4,15 @@ import Footer from './footer';
 
 const Layout = (props) =>  {
 
-    // this should conditionally render a wider or narrower max width
+    // consider a wider width like westwood's site. - needs big pics for that.
+    // could make it response: eg - wide ? 'md:this xl:that' : (narrow)
 
     return (
         <div>
             <title>{props.pageTitle}</title>
             <Hero heroImage={props.heroImage}></Hero>
             <main style={{minHeight: '65vh'}} className="flex justify-center bg-bone text-sienna">
-                <div className="max-w-4xl w-full px-8 py-4">
+                <div className={(props.wide ? 'max-w-7xl' : 'max-w-4xl' ) + ' w-full px-8 py-4'}>
                     {props.children}
                 </div>
             </main>

@@ -1,24 +1,23 @@
-import * as React from 'react';
+import * as React from "react";
 
-const Section = (props) =>  {
+const Section = (props) => {
 
-    const gridLayout = {
-        display: 'grid',
-        gridTemplateColumns: '15rem auto',
-      }
+// needs margin (+ big pics) but off to a good start
+// needs a real alt
 
-    return (
-        <div style={gridLayout}>
-            <div className="my-4">
-                <h1 className="text-xl text-sienna">
-                    {props.title}
-                </h1>
-            </div>
-            <div className="my-4 text-justify text-sienna text-lg">
-                {props.children}
-            </div>
-        </div>
-    )
-}
+  return (
+    <div className="my-4 flex flex-wrap">
+      <div className="w-full sm:w-1/4">
+        <img src={props.imgSrc} className="w-full"/>
+      </div>
+      <div className="p-4 w-full sm:w-3/4">
+        <h2 className="text-xl">
+          {props.title}
+        </h2>
+        <p>{props.children}</p>
+      </div>
+    </div>
+  );
+};
 
-export default Section
+export default Section;

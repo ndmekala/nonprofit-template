@@ -1,8 +1,7 @@
 import * as React from "react";
 import Layout from "../components/layout";
 import hero from "../images/hero/stock-3.jpg";
-import Section from "../components/section";
-import Blurb from "../components/blurb"
+import HomeSection from "../components/homepagesection"
 
 const IndexPage = () => {
   // like these fonts better or whats in the comp?
@@ -11,7 +10,7 @@ const IndexPage = () => {
 
   {/* Some of the text edited. */}
   // schema: 1) title, 2) imgSrc, 3) children…, 4) (order)
-  const blurbData = [
+  const homeData = [
     {
       title: 'Our Vision',
       description: 'Zion Baptist Church is a Spirit-led, transformed body of believers whose sole vision is to glorify God in all we do, centered in love, peace, and grace. Healing, evangelizing, making disciples, thus creating a Christ-centered community—the Beloved Community (Acts 2:42-47).',
@@ -31,10 +30,10 @@ const IndexPage = () => {
 
   return (
     <Layout wide="1" heroImage={hero} pageTitle="Home">
-      {blurbData.map((row, index) => (
-          <Blurb imgSrc={row.imgSrc} title={row.title} orderIterator={index}>
+      {homeData.map((row, index) => (
+          <HomeSection imgSrc={row.imgSrc} title={row.title} orderIterator={index}>
           {row.description}
-          </Blurb>
+          </HomeSection>
       ))}
     </Layout>
   );

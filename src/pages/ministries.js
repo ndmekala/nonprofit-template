@@ -2,7 +2,6 @@ import * as React from "react"
 import Layout from '../components/layout'
 import hero from '../images/hero/stock-3.jpg';
 import Section from "../components/section";
-import Ministry from "../components/ministry";
 
 const Ministries = () => {
 
@@ -58,15 +57,10 @@ const Ministries = () => {
     <Layout heroImage={hero} pageTitle="Ministries">
         <h1 className={twh1}>Ministries</h1>
         {ministryInfo.map((row) => (
-            <Ministry imgSrc={row.imgSrc} alt={row.title + " image"} title={row.title}>
+            <Section imgSrc={row.imgSrc} title={row.title}>
             {row.description}
-            </Ministry>
-        ))}
-        {/* ministryInfo.map((row) => (       
-            <Section title={row.title}>
-                <p>{row.description}</p>
             </Section>
-        )) */}
+        ))}
         <h1 className="text-7xl">EVENTS</h1>
         <h1 className="text-7xl">CALENDAR</h1>
     </Layout>

@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-const Blurb = (props) =>  {
+const HomeSection = (props) =>  {
     
     //quick and dirty truthy/falsey toggle alternating based on even or odd
     let flip = props.orderIterator % 2
@@ -24,4 +24,4 @@ const Blurb = (props) =>  {
     )
 }
 
-export default Blurb
+export default HomeSection
